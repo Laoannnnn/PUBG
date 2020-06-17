@@ -54,7 +54,7 @@ PUBG游戏统计信息，每一行都包含一个玩家的赛后统计信息。�
 
 首先我们用热图来大致了解相关特征：
 
-<img src="C:\F研究生资料\数据挖掘\作业\大作业\DataMining\DataMining\heatmap.png" alt="heatmap" style="zoom:25%;" />
+<img src="./pic/heatmap.png" alt="heatmap" style="zoom:25%;" />
 
 显然从热力图中我们可以看到颜色越深代表代表两个属性之间的相关性程度越高，比如很好理解的 **杀敌数(kills)** 和 **连续杀敌数(killStreaks)** 两个属性与 **本场杀敌排行(killPlace)** 之间的相关性程度分别为0.73和0.81；同时 **Elo排名(RankPoints)** 和 **胜率Elo排名(winPoints)** 的相关性高达0.99。  
 
@@ -71,7 +71,7 @@ PUBG游戏统计信息，每一行都包含一个玩家的赛后统计信息。�
 
 #### 2.3 比赛类型与胜率之间的关系
 
-<img src="C:\F研究生资料\数据挖掘\作业\大作业\DataMining\DataMining\win_match.png" alt="win_match" style="zoom: 33%;" />
+<img src="./pic/win_match.png" alt="win_match" style="zoom: 33%;" />
 
 结论：
 1、虽然**squad-fpp**是最受欢迎的比赛类型，但它也有更多的损失。
@@ -86,9 +86,9 @@ PUBG游戏统计信息，每一行都包含一个玩家的赛后统计信息。�
 2、伤害与杀敌数成比例吗?
 3、更多的伤害意味着更好的胜利吗?
 
-<img src="C:\F研究生资料\数据挖掘\作业\大作业\DataMining\DataMining\win_kills.png" alt="win_kills" style="zoom: 25%;" />
+<img src="./pic/win_kills.png" alt="win_kills" style="zoom: 25%;" />
 
-<img src="C:\F研究生资料\数据挖掘\作业\大作业\DataMining\DataMining\lost_kills.png" alt="lost_kills" style="zoom: 25%;" />
+<img src="./pic/lost_kills.png" alt="lost_kills" style="zoom: 25%;" />
 
 我们得出以下结论:
 1、大部分的比赛胜利百分比有非常低的杀死计数(0-3)
@@ -99,7 +99,7 @@ PUBG游戏统计信息，每一行都包含一个玩家的赛后统计信息。�
 
 #### 2.5 kills和winPlacePerc的关系
 
-<img src="C:\F研究生资料\数据挖掘\作业\大作业\DataMining\DataMining\kills_wins.png" alt="kills_wins" style="zoom: 33%;" />
+<img src="./pic/kills_wins.png" alt="kills_wins" style="zoom: 33%;" />
 
 我们有如下结论：
 1、winPlacePerc和kills是中度相关的。因此，从之前的热力图中获得的信息是合理的。
@@ -112,7 +112,7 @@ PUBG游戏统计信息，每一行都包含一个玩家的赛后统计信息。�
 1、找到杀敌数的伤害指标。
 2、找出比赛失败的伤害指标。
 
-<img src="C:\F研究生资料\数据挖掘\作业\大作业\DataMining\DataMining\damage_wins.png" alt="damage_wins" style="zoom:50%;" />
+<img src="./pic/damage_wins.png" alt="damage_wins" style="zoom:50%;" />
 
 结论：
 1、就最小的伤害而言，输掉一场比赛的可能性要比赢得一场比赛的可能性高。
